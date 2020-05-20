@@ -62,7 +62,7 @@ class App extends React.Component {
             </div>
             <Menu theme="dark" mode="horizontal" >
               <Menu.Item key="1" onClick={this.showModal}>Join Now</Menu.Item>
-              <Menu.Item key="2">Sign  Up</Menu.Item>
+              <Menu.Item key="2">Sign </Menu.Item>
               <Menu.Item key="3">Be A Captain</Menu.Item>
               <Menu.Item key="4">Help</Menu.Item>
             </Menu>
