@@ -21,7 +21,7 @@ const props = {
 };
 
 
-
+ 
 
 
 class App extends React.Component {
@@ -87,6 +87,9 @@ class App extends React.Component {
                 </div>
                 <div>
                   <img src={require('./assest/img/2.jpg')} />
+                </div>
+                <div>
+                  <img src={require('./assest/img/3.jpg')} />
                 </div>
                 <div>
                   <img src={require('./assest/img/3.jpg')} />
