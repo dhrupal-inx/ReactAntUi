@@ -13,7 +13,7 @@ const onFinish = values => {
   console.log('Received values of form: ', values);
 };
 const props = {
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 3,
