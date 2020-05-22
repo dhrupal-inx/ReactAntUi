@@ -8,6 +8,7 @@ import './App.scss';
 import HeaderMain from './header.js'
 import BoatList from './boatlist.js'
 import Filter from './Filter.js'
+import BoatDetails from './BoatDetails.js'
 
 const {  Content, Footer } = Layout;
 
@@ -60,7 +61,6 @@ class App extends React.Component {
 
           <div className="site-layout-background" >
             <Carousel afterChange={onChange} {...props}>
-
               <div>
                 <img src={require('./assest/img/1.jpg')} />
               </div>
@@ -97,11 +97,16 @@ class App extends React.Component {
               </Col>
 
             </Row>
+
+            <BoatDetails />
           </Content>
 
                       
 
           <Footer style={{ textAlign: 'center' }}>Boatfuji ©2020</Footer>
+
+
+         
         </Layout>
 
 

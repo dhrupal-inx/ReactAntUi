@@ -35,7 +35,7 @@ class HeaderMain extends React.Component {
           <img src={require('./assest/img/logo.svg')} />
         </div>
         <div className="search-box">
-          <Input placeholder="Search..." prefix={<SearchOutlined />} />
+          <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />
         </div>
         <Menu theme="dark" mode="horizontal" >
           <Menu.Item key="1" >Join Now</Menu.Item>

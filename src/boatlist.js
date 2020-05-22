@@ -1,7 +1,8 @@
 import React from 'react';
-import { Row, Col, Card, Rate } from 'antd';
+import { Row, Col, Card, Rate, Pagination ,Typography  } from 'antd';
 import { ShareAltOutlined ,CheckCircleTwoTone,HeartTwoTone, SafetyOutlined} from '@ant-design/icons';
 const { Meta } = Card;
+const { Text,Title } = Typography;
 
 class BoatList extends React.Component {
     
@@ -13,7 +14,7 @@ class BoatList extends React.Component {
                   <Col xl={6}>
                  
                     <Card
-                      title="Lorem ipsum "
+                      title="Fishing Boats"
                       style={{marginBottom:"20px"}}
                       actions={[
                         <SafetyOutlined style={{ fontSize: '20px', color: '#52c41a' }}/>,
@@ -21,17 +22,18 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img src="https://www.marineinsight.com/wp-content/uploads/2013/05/fishing-boat1.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
                       
-                      <Meta title="Europe Street beat" description="$200/Day"  />
+                      <Meta title="Built exclusively for fishing" description="$200/Day"  />
+                     
                       <Rate value={3}  disabled/>
                     </Card>
                    
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Dinghy Boats"
                       style={{marginBottom:"20px"}}
                       actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -39,15 +41,16 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img src="https://www.marineinsight.com/wp-content/uploads/2013/05/Dinghy-boat1.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="A dinghy can be a small inflatable" description="$200/Day" />
+                     
                       <Rate value={4}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Deck Boats "
                       style={{marginBottom:"20px"}}
                        actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -55,15 +58,15 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img src="https://www.marineinsight.com/wp-content/uploads/2013/05/deckboat-1-768x463.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="As the name suggests" description="$80/Day" />
                       <Rate value={1}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Bowrider Boats"
                       style={{marginBottom:"20px"}}
                        actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -71,15 +74,15 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img  src="https://www.marineinsight.com/wp-content/uploads/2013/05/bowrider-1.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="Known as a quintessential family boat" description="$299/Day" />
                       <Rate value={5}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Catamaran Boats"
                       style={{marginBottom:"20px"}}
                       actions={[
                         <SafetyOutlined style={{ fontSize: '20px', color: '#52c41a' }}/>,
@@ -87,16 +90,16 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img src="https://www.marineinsight.com/wp-content/uploads/2011/01/sailboat-catamaran.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
                       
-                      <Meta title="Europe Street beat" description="$200/Day"  />
+                      <Meta title="Unlike other boats" description="$180/Day"  />
                       <Rate value={3}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Cuddy Cabins Boats"
                       style={{marginBottom:"20px"}}
                       actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -104,15 +107,15 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img src="https://www.marineinsight.com/wp-content/uploads/2013/05/cuddy-cabin-boat.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="Essentially a boat that features" description="$200/Day" />
                       <Rate value={4}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Centre Console Boats "
                       style={{marginBottom:"20px"}}
                        actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -120,15 +123,15 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img alt="example" src="https://www.marineinsight.com/wp-content/uploads/2013/05/center-console-boat-1.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="gunwale rod holders" description="$200/Day" />
                       <Rate value={1}  disabled/>
                     </Card>
                   </Col>
                   <Col xl={6}>
                     <Card
-                      title="Lorem ipsum "
+                      title="Houseboats"
                       style={{marginBottom:"20px"}}
                        actions={[
                         <CheckCircleTwoTone twoToneColor="#52c41a" />,
@@ -136,13 +139,21 @@ class BoatList extends React.Component {
                         <ShareAltOutlined />,
                       ]}
                       hoverable
-                      cover={<img alt="example" src="https://images.pexels.com/photos/163236/luxury-yacht-boat-speed-water-163236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />}
+                      cover={<img alt="example" src="https://www.marineinsight.com/wp-content/uploads/2012/09/modern-houseboat.jpg" style={{minHeight:"300px",objectFit:"cover"}}/>}
                     >
-                      <Meta title="Europe Street beat" description="$200/Day" />
+                      <Meta title="There are houseboats of different " description="$599/Day" />
                       <Rate value={5}  disabled/>
                     </Card>
                   </Col> 
                 </Row>
+
+                <Pagination
+                  style={{textAlign:"center", marginTop:"20px"}}
+                  total={85}
+                  showSizeChanger
+                  showQuickJumper
+                  showTotal={total => `Total ${total} items`}
+                />
           </div>
        );
     }
