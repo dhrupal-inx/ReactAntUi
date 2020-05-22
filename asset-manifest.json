@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ReactAntUi/static/css/main.e76960e4.chunk.css",
+    "main.js": "/ReactAntUi/static/js/main.4c728133.chunk.js",
+    "main.js.map": "/ReactAntUi/static/js/main.4c728133.chunk.js.map",
+    "runtime-main.js": "/ReactAntUi/static/js/runtime-main.633924bd.js",
+    "runtime-main.js.map": "/ReactAntUi/static/js/runtime-main.633924bd.js.map",
+    "static/css/2.bcd82df2.chunk.css": "/ReactAntUi/static/css/2.bcd82df2.chunk.css",
+    "static/js/2.a543dc2d.chunk.js": "/ReactAntUi/static/js/2.a543dc2d.chunk.js",
+    "static/js/2.a543dc2d.chunk.js.map": "/ReactAntUi/static/js/2.a543dc2d.chunk.js.map",
+    "index.html": "/ReactAntUi/index.html",
+    "precache-manifest.28f9838507aa20d1dd0d4e8d929d0435.js": "/ReactAntUi/precache-manifest.28f9838507aa20d1dd0d4e8d929d0435.js",
+    "service-worker.js": "/ReactAntUi/service-worker.js",
+    "static/css/2.bcd82df2.chunk.css.map": "/ReactAntUi/static/css/2.bcd82df2.chunk.css.map",
+    "static/css/main.e76960e4.chunk.css.map": "/ReactAntUi/static/css/main.e76960e4.chunk.css.map",
+    "static/js/2.a543dc2d.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.a543dc2d.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/ReactAntUi/static/media/1.03bd51f4.jpg",
+    "static/media/2.jpg": "/ReactAntUi/static/media/2.97a964b2.jpg",
+    "static/media/3.jpg": "/ReactAntUi/static/media/3.51eeb750.jpg",
+    "static/media/logo.svg": "/ReactAntUi/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.633924bd.js",
+    "static/css/2.bcd82df2.chunk.css",
+    "static/js/2.a543dc2d.chunk.js",
+    "static/css/main.e76960e4.chunk.css",
+    "static/js/main.4c728133.chunk.js"
+  ]
+}
