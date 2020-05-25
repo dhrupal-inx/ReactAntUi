@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/ReactAntUi/static/css/main.e76960e4.chunk.css",
-    "main.js": "/ReactAntUi/static/js/main.c24d6320.chunk.js",
-    "main.js.map": "/ReactAntUi/static/js/main.c24d6320.chunk.js.map",
+    "main.js": "/ReactAntUi/static/js/main.54db277a.chunk.js",
+    "main.js.map": "/ReactAntUi/static/js/main.54db277a.chunk.js.map",
     "runtime-main.js": "/ReactAntUi/static/js/runtime-main.633924bd.js",
     "runtime-main.js.map": "/ReactAntUi/static/js/runtime-main.633924bd.js.map",
     "static/css/2.bcd82df2.chunk.css": "/ReactAntUi/static/css/2.bcd82df2.chunk.css",
-    "static/js/2.54c722b6.chunk.js": "/ReactAntUi/static/js/2.54c722b6.chunk.js",
-    "static/js/2.54c722b6.chunk.js.map": "/ReactAntUi/static/js/2.54c722b6.chunk.js.map",
+    "static/js/2.369316b8.chunk.js": "/ReactAntUi/static/js/2.369316b8.chunk.js",
+    "static/js/2.369316b8.chunk.js.map": "/ReactAntUi/static/js/2.369316b8.chunk.js.map",
     "index.html": "/ReactAntUi/index.html",
-    "precache-manifest.bf0d839650e9f6db6eb8940d2ecbc4b5.js": "/ReactAntUi/precache-manifest.bf0d839650e9f6db6eb8940d2ecbc4b5.js",
+    "precache-manifest.8c9e74068eabbe29f7b10ecf3e60f193.js": "/ReactAntUi/precache-manifest.8c9e74068eabbe29f7b10ecf3e60f193.js",
     "service-worker.js": "/ReactAntUi/service-worker.js",
     "static/css/2.bcd82df2.chunk.css.map": "/ReactAntUi/static/css/2.bcd82df2.chunk.css.map",
     "static/css/main.e76960e4.chunk.css.map": "/ReactAntUi/static/css/main.e76960e4.chunk.css.map",
-    "static/js/2.54c722b6.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.54c722b6.chunk.js.LICENSE.txt",
+    "static/js/2.369316b8.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.369316b8.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ReactAntUi/static/media/1.03bd51f4.jpg",
     "static/media/2.jpg": "/ReactAntUi/static/media/2.97a964b2.jpg",
     "static/media/3.jpg": "/ReactAntUi/static/media/3.51eeb750.jpg",
-    "static/media/logo.svg": "/ReactAntUi/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/ReactAntUi/static/media/logo.3e4766b1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.633924bd.js",
     "static/css/2.bcd82df2.chunk.css",
-    "static/js/2.54c722b6.chunk.js",
+    "static/js/2.369316b8.chunk.js",
     "static/css/main.e76960e4.chunk.css",
-    "static/js/main.c24d6320.chunk.js"
+    "static/js/main.54db277a.chunk.js"
   ]
 }
