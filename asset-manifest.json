@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/ReactAntUi/static/css/main.e76960e4.chunk.css",
-    "main.js": "/ReactAntUi/static/js/main.c5502aa6.chunk.js",
-    "main.js.map": "/ReactAntUi/static/js/main.c5502aa6.chunk.js.map",
+    "main.css": "/ReactAntUi/static/css/main.5f1e7890.chunk.css",
+    "main.js": "/ReactAntUi/static/js/main.42dc1a5f.chunk.js",
+    "main.js.map": "/ReactAntUi/static/js/main.42dc1a5f.chunk.js.map",
     "runtime-main.js": "/ReactAntUi/static/js/runtime-main.633924bd.js",
     "runtime-main.js.map": "/ReactAntUi/static/js/runtime-main.633924bd.js.map",
     "static/css/2.bcd82df2.chunk.css": "/ReactAntUi/static/css/2.bcd82df2.chunk.css",
-    "static/js/2.bb5b1a66.chunk.js": "/ReactAntUi/static/js/2.bb5b1a66.chunk.js",
-    "static/js/2.bb5b1a66.chunk.js.map": "/ReactAntUi/static/js/2.bb5b1a66.chunk.js.map",
+    "static/js/2.ef7002ba.chunk.js": "/ReactAntUi/static/js/2.ef7002ba.chunk.js",
+    "static/js/2.ef7002ba.chunk.js.map": "/ReactAntUi/static/js/2.ef7002ba.chunk.js.map",
     "index.html": "/ReactAntUi/index.html",
-    "precache-manifest.8491708276b26eee5d347eaf87329492.js": "/ReactAntUi/precache-manifest.8491708276b26eee5d347eaf87329492.js",
+    "precache-manifest.e94359e20c929037610444073c96050e.js": "/ReactAntUi/precache-manifest.e94359e20c929037610444073c96050e.js",
     "service-worker.js": "/ReactAntUi/service-worker.js",
     "static/css/2.bcd82df2.chunk.css.map": "/ReactAntUi/static/css/2.bcd82df2.chunk.css.map",
-    "static/css/main.e76960e4.chunk.css.map": "/ReactAntUi/static/css/main.e76960e4.chunk.css.map",
-    "static/js/2.bb5b1a66.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.bb5b1a66.chunk.js.LICENSE.txt",
+    "static/css/main.5f1e7890.chunk.css.map": "/ReactAntUi/static/css/main.5f1e7890.chunk.css.map",
+    "static/js/2.ef7002ba.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.ef7002ba.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ReactAntUi/static/media/1.03bd51f4.jpg",
     "static/media/2.jpg": "/ReactAntUi/static/media/2.97a964b2.jpg",
     "static/media/3.jpg": "/ReactAntUi/static/media/3.51eeb750.jpg",
-    "static/media/logo.svg": "/ReactAntUi/static/media/logo.3e4766b1.svg"
+    "static/media/banner.jpg": "/ReactAntUi/static/media/banner.47502353.jpg",
+    "static/media/captain.png": "/ReactAntUi/static/media/captain.78da0010.png",
+    "static/media/logo.svg": "/ReactAntUi/static/media/logo.3e4766b1.svg",
+    "static/media/map.png": "/ReactAntUi/static/media/map.4c919966.png"
   },
   "entrypoints": [
     "static/js/runtime-main.633924bd.js",
     "static/css/2.bcd82df2.chunk.css",
-    "static/js/2.bb5b1a66.chunk.js",
-    "static/css/main.e76960e4.chunk.css",
-    "static/js/main.c5502aa6.chunk.js"
+    "static/js/2.ef7002ba.chunk.js",
+    "static/css/main.5f1e7890.chunk.css",
+    "static/js/main.42dc1a5f.chunk.js"
   ]
 }
