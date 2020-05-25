@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout, Menu, Input, Button, Modal, Form, Checkbox  } from 'antd';
 import {  LockOutlined, UserOutlined, SearchOutlined} from '@ant-design/icons';
+import { NavLink } from "react-router-dom";
 
 
 const { Header } = Layout;
@@ -30,9 +31,9 @@ class HeaderMain extends React.Component {
       
        return (
         <div>
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%', padding: '0 25px' }}>
+        <Header style={{ position: 'fixed', zIndex: 10, width: '100%', padding: '0 25px' }}>
         <div className="logo">
-          <img src={require('./assest/img/logo.svg')} />
+        <NavLink  to="/home"> <img src={require('./assest/img/logo.svg')} /></NavLink>
         </div>
         <div className="search-box">
           <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Card, Rate, Pagination ,Typography  } from 'antd';
 import { ShareAltOutlined ,CheckCircleTwoTone,HeartTwoTone, SafetyOutlined} from '@ant-design/icons';
+import { NavLink } from "react-router-dom";
 const { Meta } = Card;
 const { Text,Title } = Typography;
 
@@ -12,7 +13,7 @@ class BoatList extends React.Component {
             
             <Row gutter={16}>
                   <Col xl={6}>
-                 
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Fishing Boats"
                       style={{marginBottom:"20px"}}
@@ -29,7 +30,7 @@ class BoatList extends React.Component {
                      
                       <Rate value={3}  disabled/>
                     </Card>
-                   
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
                     <Card
