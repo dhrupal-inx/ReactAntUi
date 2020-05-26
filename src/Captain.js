@@ -35,7 +35,7 @@ class Captain extends React.Component {
                             </Col>
                             <Divider />
                             <Col xl={12} >
-                            <label labelAlign={"left"}>Phone</label>
+                                <label labelAlign={"left"}>Phone</label>
                                 <Input
                                     size={"large"}
                                     prefix={<MobileOutlined className="site-form-item-icon" />}
@@ -44,7 +44,7 @@ class Captain extends React.Component {
                                 />
                             </Col>
                             <Col xl={12} >
-                            <label labelAlign={"left"}>Email</label>
+                                <label labelAlign={"left"}>Email</label>
                                 <Input
                                     size={"large"}
                                     prefix={<MailOutlined className="site-form-item-icon" />}
@@ -52,27 +52,27 @@ class Captain extends React.Component {
                                     placeholder="email@domain.com"
                                 />
                             </Col>
-                            </Row>
-                            <Divider>Your Address</Divider>
-                            <Row gutter={16}>
+                        </Row>
+                        <Divider>Your Address</Divider>
+                        <Row gutter={16}>
                             <Col xl={24} >
-                            <label labelAlign={"left"}>Let us know where you call home.</label>
-                            <Input.TextArea 
-                            size={"large"}
-                           rows={5}
-                            />
+                                <label labelAlign={"left"}>Let us know where you call home.</label>
+                                <Input.TextArea
+                                    size={"large"}
+                                    rows={5}
+                                />
                             </Col>
-                            </Row>
-                            <Divider>About You</Divider>
-                            <Row gutter={16}>
+                        </Row>
+                        <Divider>About You</Divider>
+                        <Row gutter={16}>
                             <Col xl={24} >
-                            <label labelAlign={"left"}>Let us know where you call home.</label>
-                            <Input.TextArea 
-                            size={"large"}
-                           rows={3}
-                            />
-                                </Col>
-                            
+                                <label labelAlign={"left"}>Let us know where you call home.</label>
+                                <Input.TextArea
+                                    size={"large"}
+                                    rows={3}
+                                />
+                            </Col>
+
                         </Row>
                     </Card>
                 </Content>

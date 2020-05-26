@@ -14,28 +14,28 @@ const { Option } = Select;
 
 const data = [
     {
-      author: 'Han Solo',
-      avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-      content: (
-        <p>
-          We supply a series of design principles, practical patterns and high quality design
-          resources (Sketch and Axure), to help people create their product prototypes beautifully and
-          efficiently.
-        </p>
-      ),
-     
+        author: 'Han Solo',
+        avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+        content: (
+            <p>
+                We supply a series of design principles, practical patterns and high quality design
+                resources (Sketch and Axure), to help people create their product prototypes beautifully and
+                efficiently.
+            </p>
+        ),
+
     },
     {
-      author: 'Han Solo',
-      avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-      content: (
-        <p>
-          We supply a series of design principles, practical patterns and high quality design
-          resources (Sketch and Axure), to help people create their product prototypes beautifully and
-          efficiently.
-        </p>
-      ),
-     
+        author: 'Han Solo',
+        avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+        content: (
+            <p>
+                We supply a series of design principles, practical patterns and high quality design
+                resources (Sketch and Axure), to help people create their product prototypes beautifully and
+                efficiently.
+            </p>
+        ),
+
     },
 
     {
@@ -54,7 +54,7 @@ const data = [
         title: 'Title 4',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
     },
-  ];
+];
 
 const props = {
     dots: true,
@@ -156,36 +156,36 @@ class BoatDetails extends React.Component {
                                     </div>
                                     <Divider />
                                     <div>
-                                    <Text>PASSENGERS</Text>
+                                        <Text>PASSENGERS</Text>
                                         <Select defaultValue="1" style={{ width: '100%' }} size="large">
-                                <Option value="1">1</Option>
-                                <Option value="2">2</Option>
-                                <Option value="3">3</Option>
-                                <Option value="4">4</Option>
-                            </Select></div>
+                                            <Option value="1">1</Option>
+                                            <Option value="2">2</Option>
+                                            <Option value="3">3</Option>
+                                            <Option value="4">4</Option>
+                                        </Select></div>
                                 </Col>
                             </Row>
-                            
+
                             <Row gutter={16}>
-                            <Col xl={24}>  
-                            <List
-                                className="comment-list"
-                                header="Review"
-                                itemLayout="horizontal"
-                                dataSource={data}
-                                renderItem={item => (
-                                <li>
-                                    <Comment
-                                    actions={item.actions}
-                                    author={item.author}
-                                    avatar={item.avatar}
-                                    content={item.content}
-                                    datetime={item.datetime}
+                                <Col xl={24}>
+                                    <List
+                                        className="comment-list"
+                                        header="Review"
+                                        itemLayout="horizontal"
+                                        dataSource={data}
+                                        renderItem={item => (
+                                            <li>
+                                                <Comment
+                                                    actions={item.actions}
+                                                    author={item.author}
+                                                    avatar={item.avatar}
+                                                    content={item.content}
+                                                    datetime={item.datetime}
+                                                />
+                                            </li>
+                                        )}
                                     />
-                                </li>
-                                )}
-                            />
-                            </Col>
+                                </Col>
                             </Row>
 
                         </Drawer>
@@ -270,8 +270,8 @@ class BoatDetails extends React.Component {
                                 </p>
                                 }
                             />
-                        </Col>                        
-                    </Row>                    
+                        </Col>
+                    </Row>
                 </Content>
             </div>
         )

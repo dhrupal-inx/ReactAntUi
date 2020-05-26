@@ -6,11 +6,9 @@ const { Meta } = Card;
 const { Text,Title } = Typography;
 
 class BoatList extends React.Component {
-    
     render() {
        return (
           <div>
-            
             <Row gutter={16}>
                   <Col xl={6}>
                   <NavLink  to="/boatDetails">
