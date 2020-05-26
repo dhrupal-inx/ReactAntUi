@@ -33,6 +33,7 @@ class BoatList extends React.Component {
                     </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Dinghy Boats"
                       style={{marginBottom:"20px"}}
@@ -48,8 +49,10 @@ class BoatList extends React.Component {
                      
                       <Rate value={4}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Deck Boats "
                       style={{marginBottom:"20px"}}
@@ -64,8 +67,10 @@ class BoatList extends React.Component {
                       <Meta title="As the name suggests" description="$80/Day" />
                       <Rate value={1}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Bowrider Boats"
                       style={{marginBottom:"20px"}}
@@ -80,8 +85,10 @@ class BoatList extends React.Component {
                       <Meta title="Known as a quintessential family boat" description="$299/Day" />
                       <Rate value={5}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Catamaran Boats"
                       style={{marginBottom:"20px"}}
@@ -97,8 +104,10 @@ class BoatList extends React.Component {
                       <Meta title="Unlike other boats" description="$180/Day"  />
                       <Rate value={3}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Cuddy Cabins Boats"
                       style={{marginBottom:"20px"}}
@@ -113,8 +122,10 @@ class BoatList extends React.Component {
                       <Meta title="Essentially a boat that features" description="$200/Day" />
                       <Rate value={4}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Centre Console Boats "
                       style={{marginBottom:"20px"}}
@@ -129,8 +140,10 @@ class BoatList extends React.Component {
                       <Meta title="gunwale rod holders" description="$200/Day" />
                       <Rate value={1}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col>
                   <Col xl={6}>
+                  <NavLink  to="/boatDetails">
                     <Card
                       title="Houseboats"
                       style={{marginBottom:"20px"}}
@@ -145,6 +158,7 @@ class BoatList extends React.Component {
                       <Meta title="There are houseboats of different " description="$599/Day" />
                       <Rate value={5}  disabled/>
                     </Card>
+                    </NavLink>
                   </Col> 
                 </Row>
 

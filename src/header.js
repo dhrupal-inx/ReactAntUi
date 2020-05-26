@@ -42,7 +42,7 @@ class HeaderMain extends React.Component {
         <Menu.Item key="1"  ><NavLink to="/joinNow" >Join Now</NavLink></Menu.Item>
           <Menu.Item key="2" onClick={this.showModal}>Sign Up</Menu.Item>
           <Menu.Item key="3"><NavLink to="/captain" >Be A Captain</NavLink></Menu.Item>
-          <Menu.Item key="4">Help</Menu.Item>
+          <Menu.Item key="4" >Help</Menu.Item>
           <Menu.Item key="5"> <Button>List Your Boat</Button></Menu.Item>
         </Menu>
        
