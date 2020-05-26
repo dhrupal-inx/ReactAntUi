@@ -1,24 +1,43 @@
-import React  from 'react';
-import { Layout, Row, Col, Carousel, List, Typography, 
-        Divider, Rate, Avatar, Descriptions, Comment,
-         Breadcrumb , Button, Drawer, Radio } from 'antd';
+import React from 'react';
+import {
+    Layout, Row, Col, Carousel, List, Typography,
+    Divider, Rate, Avatar, Descriptions, Comment,
+    Breadcrumb, Button, Drawer, Radio, Select
+} from 'antd';
+import moment from 'moment';
 import { EnvironmentOutlined, UserOutlined, DoubleRightOutlined, HomeOutlined } from '@ant-design/icons';
 
 
 const { Title, Text } = Typography;
 const { Content } = Layout;
+const { Option } = Select;
 
-
-
-const props = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-
-};
 const data = [
+    {
+      author: 'Han Solo',
+      avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+      content: (
+        <p>
+          We supply a series of design principles, practical patterns and high quality design
+          resources (Sketch and Axure), to help people create their product prototypes beautifully and
+          efficiently.
+        </p>
+      ),
+     
+    },
+    {
+      author: 'Han Solo',
+      avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+      content: (
+        <p>
+          We supply a series of design principles, practical patterns and high quality design
+          resources (Sketch and Axure), to help people create their product prototypes beautifully and
+          efficiently.
+        </p>
+      ),
+     
+    },
+
     {
         title: 'Title 1',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
@@ -35,21 +54,31 @@ const data = [
         title: 'Title 4',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
     },
-];
+  ];
+
+const props = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
+};
+
 class BoatDetails extends React.Component {
 
     state = { visible: false };
 
     showDrawer = () => {
-      this.setState({
-        visible: true,
-      });
+        this.setState({
+            visible: true,
+        });
     };
-  
+
     onClose = () => {
-      this.setState({
-        visible: false,
-      });
+        this.setState({
+            visible: false,
+        });
     };
 
 
@@ -82,53 +111,84 @@ class BoatDetails extends React.Component {
                 <Content className="site-layout" style={{ padding: '30px 50px', background: '#fff' }}>
                     <Row gutter={16}>
 
-                    <Breadcrumb>
-                        <Breadcrumb.Item href="/home">
-                        <HomeOutlined />
-                        </Breadcrumb.Item>
-                        
-                        <Breadcrumb.Item>Wakeboard/ Ski Boats</Breadcrumb.Item>
-                    </Breadcrumb>
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/home">
+                                <HomeOutlined />
+                            </Breadcrumb.Item>
 
-                
-                <div style={{position:"relative",width:"100%", float:"right"}}>
-                    <Button onClick={this.showDrawer} className="book-boat-btn" type="primary"> REQUEST TO BOOK </Button></div>
-                    <Drawer
-                    title="Wakeboard/ Ski Boats ( $790.62 + Fule ) "
-                    placement="right"
-                    onClose={this.onClose}
-                    visible={this.state.visible}
-                    width={"50%"}
-                    footer={
-                        <div
-                          style={{
-                            textAlign: 'right',
-                          }}
+                            <Breadcrumb.Item>Wakeboard/ Ski Boats</Breadcrumb.Item>
+                        </Breadcrumb>
+
+
+                        <div style={{ position: "relative", width: "100%", float: "right" }}>
+                            <Button onClick={this.showDrawer} className="book-boat-btn" type="primary"> REQUEST TO BOOK </Button></div>
+                        <Drawer
+                            title="Wakeboard/ Ski Boats ( $790.62 + Fule )"
+                            placement="right"
+                            onClose={this.onClose}
+                            visible={this.state.visible}
+                            width={"50%"}
+                            footer={
+                                <div
+                                    style={{
+                                        textAlign: 'right',
+                                    }}
+                                >
+                                    <Button onClick={this.onClose} style={{ marginRight: 8 }}>
+                                        Cancel
+                          </Button>
+                                    <Button onClick={this.onClose} type="primary">
+                                        Submit
+                          </Button>
+                                </div>
+                            }
                         >
-                          <Button onClick={this.onClose} style={{ marginRight: 8 }}>
-                            Cancel
-                          </Button>
-                          <Button onClick={this.onClose} type="primary">
-                            Submit
-                          </Button>
-                        </div>
-                      }
-                >
-                     <Row gutter={16}>
-    
-                     <Col xl={12}><img src={require("./assest/img/map.png")} style={{width:"100%"}}/></Col>
-                     <Col xl={12}>
-                     <div>
-                         <Text>Select Capton</Text>
-                                <Radio.Group defaultValue="a" buttonStyle="solid">
-                                    <Radio.Button value="a">With Capton</Radio.Button>
-                                    <Radio.Button value="b">Without Capton</Radio.Button>
-                                </Radio.Group>
-                            </div>
-                     </Col>
-                     </Row>
+                            <Row gutter={16}>
 
-                </Drawer>
+                                <Col xl={12}><img src={require("./assest/img/map.png")} style={{ width: "100%" }} /></Col>
+                                <Col xl={12}>
+                                    <div>
+                                        <Text>Select Captain</Text>
+                                        <Radio.Group defaultValue="a" buttonStyle="solid">
+                                            <Radio.Button value="a">With Captain</Radio.Button>
+                                            <Radio.Button value="b">Without Captain</Radio.Button>
+                                        </Radio.Group>
+                                    </div>
+                                    <Divider />
+                                    <div>
+                                    <Text>PASSENGERS</Text>
+                                        <Select defaultValue="1" style={{ width: '100%' }} size="large">
+                                <Option value="1">1</Option>
+                                <Option value="2">2</Option>
+                                <Option value="3">3</Option>
+                                <Option value="4">4</Option>
+                            </Select></div>
+                                </Col>
+                            </Row>
+                            
+                            <Row gutter={16}>
+                            <Col xl={24}>  
+                            <List
+                                className="comment-list"
+                                header="Review"
+                                itemLayout="horizontal"
+                                dataSource={data}
+                                renderItem={item => (
+                                <li>
+                                    <Comment
+                                    actions={item.actions}
+                                    author={item.author}
+                                    avatar={item.avatar}
+                                    content={item.content}
+                                    datetime={item.datetime}
+                                    />
+                                </li>
+                                )}
+                            />
+                            </Col>
+                            </Row>
+
+                        </Drawer>
 
                         <Col xl={24}>
                             <Title style={{ marginTop: "20px", marginBottom: "5px" }} level={2}>Wakeboard/ Ski Boats </Title>
@@ -210,8 +270,8 @@ class BoatDetails extends React.Component {
                                 </p>
                                 }
                             />
-                        </Col>
-                    </Row>
+                        </Col>                        
+                    </Row>                    
                 </Content>
             </div>
         )
