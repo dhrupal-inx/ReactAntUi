@@ -16,7 +16,7 @@ const routing = (
     <div>
     <HeaderMain />
     
-      <Route path="/home" component={App} />
+      <Route path="/" component={App} />
       <Route path="/home" component={Home} />
       <Route path="/boatDetails" component={BoatDetails} />
       <Route path="/joinNow" component={JoinNow} />

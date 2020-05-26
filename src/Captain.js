@@ -65,11 +65,11 @@ class Captain extends React.Component {
                             </Row>
                             <Divider>About You</Divider>
                             <Row gutter={16}>
-                            <Col xl={8} offset={8} style={{ marginTop: "25px", marginBottom: "20px" }}>
+                            <Col xl={24} >
                             <label labelAlign={"left"}>Let us know where you call home.</label>
                             <Input.TextArea 
                             size={"large"}
-                           rows={5}
+                           rows={3}
                             />
                                 </Col>
                             
