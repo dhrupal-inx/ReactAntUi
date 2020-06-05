@@ -62,6 +62,23 @@ const props = {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+       
+      ]
 
 };
 
@@ -127,7 +144,8 @@ class BoatDetails extends React.Component {
                             placement="right"
                             onClose={this.onClose}
                             visible={this.state.visible}
-                            width={"50%"}
+                            width={"auto"}
+                            style={{maxWidth:600}}
                             footer={
                                 <div
                                     style={{

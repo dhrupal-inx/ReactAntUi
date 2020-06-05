@@ -1,10 +1,11 @@
 import React from 'react'
-import { Input, Button, Layout, Row, Col, Card, Typography, Divider, Anchor } from 'antd';
-import { MobileOutlined, LockOutlined, MailOutlined, EditOutlined } from '@ant-design/icons';
-
+import { Input, Button, Layout, Row, Col, Card, Typography, Divider, Select, Checkbox } from 'antd';
+import { MobileOutlined, MailOutlined, EditOutlined } from '@ant-design/icons';
+import { NavLink } from "react-router-dom";
 
 const { Content } = Layout;
 const { Title, Text } = Typography;
+const { Option } = Select;
 
 class Captain extends React.Component {
     render() {
@@ -21,11 +22,11 @@ class Captain extends React.Component {
 
 
                 <Content className="site-layout" style={{ padding: '30px 50px', background: '#f1f3fa' }}>
-                    <Card hoverable={true} bordered={false} style={{ width: "50%", margin: "0 auto", marginTop: "30px" }}>
+                    <Card bordered={false} style={{ width: "50%", margin: "0 auto", marginTop: "30px" }}>
 
                         <Row gutter={16}>
                             <Col xl={24} style={{ marginBottom: "16px" }}>
-                                <label labelAlign={"left"}>USCG Reference Number</label>
+                                <label labelAlign={"left"}><b>USCG Reference Number</b></label>
                                 <Input
                                     size={"large"}
                                     prefix={<EditOutlined className="site-form-item-icon" />}
@@ -35,7 +36,7 @@ class Captain extends React.Component {
                             </Col>
                             <Divider />
                             <Col xl={12} >
-                                <label labelAlign={"left"}>Phone</label>
+                                <label labelAlign={"left"}><b>Phone</b></label>
                                 <Input
                                     size={"large"}
                                     prefix={<MobileOutlined className="site-form-item-icon" />}
@@ -44,7 +45,7 @@ class Captain extends React.Component {
                                 />
                             </Col>
                             <Col xl={12} >
-                                <label labelAlign={"left"}>Email</label>
+                                <label labelAlign={"left"}><b>Email</b></label>
                                 <Input
                                     size={"large"}
                                     prefix={<MailOutlined className="site-form-item-icon" />}
@@ -55,8 +56,8 @@ class Captain extends React.Component {
                         </Row>
                         <Divider>Your Address</Divider>
                         <Row gutter={16}>
-                            <Col xl={24} >
-                                <label labelAlign={"left"}>Let us know where you call home.</label>
+                            <Col xl={24}>
+                                <label labelAlign={"left"}><b>Let us know where you call home.</b></label>
                                 <Input.TextArea
                                     size={"large"}
                                     rows={5}
@@ -66,7 +67,7 @@ class Captain extends React.Component {
                         <Divider>About You</Divider>
                         <Row gutter={16}>
                             <Col xl={24} >
-                                <label labelAlign={"left"}>Let us know where you call home.</label>
+                                <label labelAlign={"left"}><b>Tell us more about yourself, captain</b></label>
                                 <Input.TextArea
                                     size={"large"}
                                     rows={3}
@@ -74,6 +75,44 @@ class Captain extends React.Component {
                             </Col>
 
                         </Row>
+                        <Divider />
+                        <Row gutter={16}>
+                        <Col xl={12}>
+                        <label labelAlign={"left"}><b>Years of Experience</b></label>
+                        <Select defaultValue="1 Year" style={{ width: "100%" }} >
+                            <Option value="1">1 Year</Option>
+                            <Option value="2">2 Years</Option>
+                            <Option value="3">3 Years</Option>
+                            <Option value="4">4 Years</Option>
+                            <Option value="5">5+ Years</Option>
+                            </Select>
+                        </Col>
+                        <Col xl={12}>
+                        <label labelAlign={"left"}><b>Languages Spoken</b></label>
+                        <Checkbox.Group style={{ width: '100%' }} >
+                            <Row>
+                            <Col span={8}>
+                                <Checkbox value="A">English</Checkbox>
+                            </Col>
+                            <Col span={8}>
+                                <Checkbox value="B">Spanish</Checkbox>
+                            </Col>
+                            <Col span={8}>
+                                <Checkbox value="C">French</Checkbox>
+                            </Col>
+                            <Col span={8}>
+                                <Checkbox value="D">Italian</Checkbox>
+                            </Col>
+                            <Col span={9}>
+                                <Checkbox value="E">Portuguese</Checkbox>
+                            </Col>
+                            </Row>
+                        </Checkbox.Group>
+                        </Col>
+                        </Row>
+
+                        <Divider />
+                        <NavLink to="/conditioncheck" ><Button size={"large"} block type="primary"> ALL SET / CONTINUE</Button></NavLink>
                     </Card>
                 </Content>
             </div>

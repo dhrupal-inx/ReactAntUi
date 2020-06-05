@@ -57,3 +57,20 @@
   right: 0;
   z-index: 1;
 }
+
+.footer-main{
+  background: #001529;
+  color: #fff;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab{
+  text-align: left;
+}
+.percent-text{
+  fill: #222222 !important;
+}
+
+@media(max-width: 767px){
+  .site-layout{
+    padding: 25px 15px !important;
+  }
+}

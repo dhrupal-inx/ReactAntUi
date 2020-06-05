@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Menu, Input, Button, Modal, Form, Checkbox } from 'antd';
+import { Layout, Menu, Input, Button, Modal, Form, Checkbox,Col } from 'antd';
 import { LockOutlined, UserOutlined, SearchOutlined } from '@ant-design/icons';
 import { NavLink } from "react-router-dom";
 
@@ -35,9 +35,9 @@ class HeaderMain extends React.Component {
           <div className="logo">
             <NavLink to="/home"> <img src={require('./assest/img/logo.svg')} /></NavLink>
           </div>
-          <div className="search-box">
+          <Col className="search-box" xs={0} sm={0} md={3}>
             <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />
-          </div>
+          </Col>
           <Menu theme="dark" mode="horizontal" >
             <Menu.Item key="1"  ><NavLink to="/joinNow" >Join Now</NavLink></Menu.Item>
             <Menu.Item key="2" onClick={this.showModal}>Sign Up</Menu.Item>

@@ -10,7 +10,7 @@ class BoatList extends React.Component {
        return (
           <div>
             <Row gutter={16}>
-                  <Col xl={6}>
+                  <Col lg={6}>
                   <NavLink  to="/boatDetails">
                     <Card
                       title="Fishing Boats"
