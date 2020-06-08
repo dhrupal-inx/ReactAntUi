@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactAntUi/static/css/main.5f1e7890.chunk.css",
-    "main.js": "/ReactAntUi/static/js/main.72c20916.chunk.js",
-    "main.js.map": "/ReactAntUi/static/js/main.72c20916.chunk.js.map",
+    "main.css": "/ReactAntUi/static/css/main.1cb600d3.chunk.css",
+    "main.js": "/ReactAntUi/static/js/main.400d23b2.chunk.js",
+    "main.js.map": "/ReactAntUi/static/js/main.400d23b2.chunk.js.map",
     "runtime-main.js": "/ReactAntUi/static/js/runtime-main.633924bd.js",
     "runtime-main.js.map": "/ReactAntUi/static/js/runtime-main.633924bd.js.map",
-    "static/css/2.bcd82df2.chunk.css": "/ReactAntUi/static/css/2.bcd82df2.chunk.css",
-    "static/js/2.1dbcdf95.chunk.js": "/ReactAntUi/static/js/2.1dbcdf95.chunk.js",
-    "static/js/2.1dbcdf95.chunk.js.map": "/ReactAntUi/static/js/2.1dbcdf95.chunk.js.map",
+    "static/css/2.dd19043a.chunk.css": "/ReactAntUi/static/css/2.dd19043a.chunk.css",
+    "static/js/2.9a203171.chunk.js": "/ReactAntUi/static/js/2.9a203171.chunk.js",
+    "static/js/2.9a203171.chunk.js.map": "/ReactAntUi/static/js/2.9a203171.chunk.js.map",
     "index.html": "/ReactAntUi/index.html",
-    "precache-manifest.9f6c0d16bf569185e94914380fb6e7a0.js": "/ReactAntUi/precache-manifest.9f6c0d16bf569185e94914380fb6e7a0.js",
+    "precache-manifest.be89e2682f6273cb429bc6c14cd211d9.js": "/ReactAntUi/precache-manifest.be89e2682f6273cb429bc6c14cd211d9.js",
     "service-worker.js": "/ReactAntUi/service-worker.js",
-    "static/css/2.bcd82df2.chunk.css.map": "/ReactAntUi/static/css/2.bcd82df2.chunk.css.map",
-    "static/css/main.5f1e7890.chunk.css.map": "/ReactAntUi/static/css/main.5f1e7890.chunk.css.map",
-    "static/js/2.1dbcdf95.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.1dbcdf95.chunk.js.LICENSE.txt",
+    "static/css/2.dd19043a.chunk.css.map": "/ReactAntUi/static/css/2.dd19043a.chunk.css.map",
+    "static/css/main.1cb600d3.chunk.css.map": "/ReactAntUi/static/css/main.1cb600d3.chunk.css.map",
+    "static/js/2.9a203171.chunk.js.LICENSE.txt": "/ReactAntUi/static/js/2.9a203171.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ReactAntUi/static/media/1.03bd51f4.jpg",
     "static/media/2.jpg": "/ReactAntUi/static/media/2.97a964b2.jpg",
     "static/media/3.jpg": "/ReactAntUi/static/media/3.51eeb750.jpg",
@@ -24,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.633924bd.js",
-    "static/css/2.bcd82df2.chunk.css",
-    "static/js/2.1dbcdf95.chunk.js",
-    "static/css/main.5f1e7890.chunk.css",
-    "static/js/main.72c20916.chunk.js"
+    "static/css/2.dd19043a.chunk.css",
+    "static/js/2.9a203171.chunk.js",
+    "static/css/main.1cb600d3.chunk.css",
+    "static/js/main.400d23b2.chunk.js"
   ]
 }
